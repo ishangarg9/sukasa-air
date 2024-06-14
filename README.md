@@ -2,6 +2,7 @@
 
 ## Running the code
 
+- Have a mongo server running
 - Create `.env` file at root, add below variables
 
 ```
