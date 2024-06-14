@@ -19,10 +19,11 @@ JWT_SECRET=secret
 ```
 sukasa-air/
 ├── src/
+│ ├── constants/
 │ ├── controllers/
 │ │ ├── authController.ts
 │ │ ├── reservationController.ts
-│ ├── controllers/
+│ ├── db/
 │ │ ├── connectDB.ts
 │ ├── middleware/
 │ │ ├── authMiddleware.ts
