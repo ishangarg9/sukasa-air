@@ -13,7 +13,7 @@ JWT_SECRET=secret
   - `npm install`
   - `npm run dev`
 
-## code structure
+## Code Structure
 
 ```
 sukasa-air/
@@ -55,11 +55,21 @@ sukasa-air/
 
 ### Reservation
 
-A reservation is a booking object that stores informatino like passenger name & seat number booked.
+A reservation is a booking object that stores information about a passenger and their seat reservation. Here are the properties of a reservation:
 
-### user
+- `seatNumber`: A unique number representing the seat that is reserved.
+- `passengerName`: The name of the passenger who has reserved the seat.
+- `passengerPhone`: The phone number of the passenger.
+- `passengerAge`: The age of the passenger.
+- `reservedAt`: The date and time when the reservation was made.
+- `user`: The user who made the reservation. This is a reference to a User document.
+- `status`: The status of the reservation.[`AVAILABLE`, `RESERVED`, `PROCESSING`].
+
+### User
 
 Contains information regarding user, email only for current requirement
+
+- `email`: user email
 
 ## API Documentation
 
